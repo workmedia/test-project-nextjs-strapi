@@ -45,6 +45,20 @@ No footer de cada card, deve haver um botão, que na verdade é um Link, que lev
 - O botão "Registar" só ficará habilitado para submeter quando todos os requisitos acima forem cumpridos.
 - Ao se registar com sucesso, o utilizador deverá ser reencaminhado novamente para a homepage.
 
-## Como entregar o seu projecto
+## Regras 🧭
+- Não adicionar nenhuma dependência.
+- Pode-se escrever inline styles ou usar ficheiros css. Recomenda-se, porém, usar css modules para a componentização (https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css)
+- Utilize REST para comunicar frontend com backend. Utilize `fetch` (https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) no frontend, em vez de `axios` ou outras libs do género.
+- O backend foi gerado com SQLITE para que os dados também fiquem no repositório. Para aceder ao painel admin, utilize o seguinte acesso: email `admin@admin.admin.com` e password `z.GGM6PpeDPK3gH`.
+
+> Nota: o `.env` e o `.tmp` do backend foram removidos do `.gitignore` propositalmente para facilitar a configuração do início do projeto, embora não seja uma boa prática. Por favor, não os readicione ao `.gitignore`.
+  
+## Conselhos 😄
+- Pode-se utilizar o estilo já existente no código de exemplo. Lá existem, por exemplo, cards.
+- No backend, creio que não será necessário escrever código. Utilize o backoffice para criar os content-types e os relacionamentos.
+- Organização é muito importante. Tente manter os componentes organizados, reutilizáveis e documentados sempre que possíveis. Documente da maneira que quiser, não é preciso seguir nenhum padrão. Ah, organização na hora de commitar também é muito importante, portanto nada de colocar tudo em um único commit!
+- Tem dúvidas? Não hesite em mandar um e-mail. Estou sempre disponível para esclarecer o que for, até porque é possível que haja alguma falha nas minhas próprias instruções.
+
+## Como entregar o seu projecto 📫
 1. Faça clone deste repositório.
 2. Quando concluir, envie um e-mail para o e-mail de candidatura com o link do seu repositório.
