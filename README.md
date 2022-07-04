@@ -43,7 +43,7 @@ No footer de cada card, deve haver um botão, que na verdade é um Link, que lev
 - Nome do curso e descrição
 - O utilizador poderá ver todos os níveis e será obrigado a escolher um (por exemplo, utilizando um `<select>`)
 - Ao seleccionar o nível, devem ser exibidas, em lista com checkbox, as 4 disciplinas.
-- O user pode seleccionar apenas 2 das 4 disciplinas.
+- O user deve seleccionar duas e apenas duas disciplinas.
 - O botão "Registar" só ficará habilitado para submeter quando todos os requisitos acima forem cumpridos.
 - Ao se registar com sucesso, o utilizador deverá ser reencaminhado novamente para a homepage.
 
